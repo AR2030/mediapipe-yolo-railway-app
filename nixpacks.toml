@@ -1,9 +1,0 @@
-# nixpacks.toml (Corrected Version)
-
-[phases.setup]
-nixPkgs = [
-  "mesa.libGL",  # This is the canonical package for libGL.so.1
-  "xorg.libSM",
-  "xorg.libICE",
-  "xorg.libX11"
-]
