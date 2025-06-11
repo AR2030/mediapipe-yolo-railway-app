@@ -1,7 +1,8 @@
 flask
-ultralytics
+# onnxruntime is the only library needed to run the ONNX model
+onnxruntime
 mediapipe
-# Use opencv-python-headless for servers, it's smaller
+# Use opencv-python-headless for servers
 opencv-python-headless
 numpy
 Pillow
