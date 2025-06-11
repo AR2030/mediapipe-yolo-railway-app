@@ -1,0 +1,7 @@
+flask
+ultralytics
+mediapipe
+# Use opencv-python-headless for servers, it's smaller
+opencv-python-headless
+numpy
+Pillow
