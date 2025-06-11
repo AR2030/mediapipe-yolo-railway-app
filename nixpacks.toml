@@ -1,5 +1,9 @@
-# nixpacks.toml
+# nixpacks.toml (Corrected Version)
 
-# Add system packages needed by OpenCV
 [phases.setup]
-nixPkgs = ["pkgs.libGL", "pkgs.libSM", "pkgs.libICE", "pkgs.xorg.libX11"]
+nixPkgs = [
+  "mesa.libGL",  # This is the canonical package for libGL.so.1
+  "xorg.libSM",
+  "xorg.libICE",
+  "xorg.libX11"
+]
