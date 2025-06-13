@@ -1,9 +1,6 @@
-flask
-# onnxruntime is the only library needed to run the ONNX model
-onnxruntime
-mediapipe
-# Use opencv-python-headless for servers
-opencv-python-headless
+Flask
 numpy
-Pillow
-gunicorn
+opencv-python-headless
+mediapipe
+torch
+ultralytics
