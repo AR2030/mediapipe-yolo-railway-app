@@ -15,7 +15,7 @@ onnx_session = None
 hands_detector = None
 mp_drawing_connections = None
 # MAKE SURE THIS MATCHES YOUR MODEL'S OUTPUTS
-CLASS_NAMES = {0: 'Baba', 1: 'Book', 2: 'Friend', 3: 'Melon', 4: 'Photograph', 5: 'Salam', 6: 'SalamAlikum'}
+CLASS_NAMES = {0: 'baba', 1: 'book', 2: 'company', 3: 'grandfather', 4: 'mall', 5: 'mama', 6: 'melon', 7: 'mosque', 8: 'photograph', 9: 'salaam alaikum', 10: 'salam', 11: 'school', 12: 'university'}
 MODEL_INPUT_SIZE = 224
 
 # --- Load Models on Startup ---
